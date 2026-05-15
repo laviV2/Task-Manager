@@ -79,10 +79,16 @@ const ensureMinimumData = async () => {
 mongoose
   .connect(process.env.MONGO_URI || 'mongodb://localhost:27017/taskflow')
   .then(async () => {
-    console.log('MongoDB connected');
+    console.log('✅ MongoDB connected successfully');
     await ensureMinimumData();
   })
-  .catch((err) => console.log('MongoDB connection error:', err));
+  .catch((err) => {
+    console.error('❌ MongoDB connection error:');
+    console.error(err.message);
+    if (!process.env.MONGO_URI) {
+      console.error('Note: MONGO_URI environment variable is not set.');
+    }
+  });
 
 // API Routes
 app.use('/api/auth', authRoutes);

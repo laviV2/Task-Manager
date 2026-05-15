@@ -147,14 +147,15 @@ Your root `package.json` scripts:
 
 ## ✅ Deployment Checklist
 
+- [x] API URL configured for production (Relative paths)
 - [ ] MongoDB Atlas account created
 - [ ] MongoDB connection string obtained
 - [ ] Code pushed to GitHub
 - [ ] Railway project created
 - [ ] MONGO_URI environment variable set
 - [ ] JWT_SECRET environment variable set
-- [ ] Build command: `npm run build`
-- [ ] Start command: `npm start`
+- [ ] Build command: `npm run build` (Railway default)
+- [ ] Start command: `npm start` (Railway default)
 - [ ] Deployment successful
 - [ ] Can login at Railway URL
 - [ ] Tasks can be created and managed
