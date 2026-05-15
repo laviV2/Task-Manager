@@ -18,17 +18,17 @@ export default function Sidebar({ user, setUser }) {
     contextualItem = { label: 'Project Tasks', path: `/tasks?projectId=${projectId}`, icon: '🗂️' };
   }
 
-  const navItems = user?.role === 'admin' 
+  const navItems = user?.role === 'admin'
     ? [
-        { label: 'Dashboard', path: '/dashboard', icon: '📊' },
-        { label: 'Projects', path: '/projects', icon: '📁' },
-        { label: 'Attendance', path: '/attendance', icon: '⏰' },
-      ]
+      { label: 'Dashboard', path: '/dashboard', icon: '📊' },
+      { label: 'Projects', path: '/projects', icon: '📁' },
+      { label: 'Attendance', path: '/attendance', icon: '⏰' },
+    ]
     : [
-        { label: 'Dashboard', path: '/dashboard', icon: '📊' },
-        { label: 'My Projects', path: '/projects', icon: '📁' },
-        { label: 'Attendance', path: '/attendance', icon: '⏰' },
-      ];
+      { label: 'Dashboard', path: '/dashboard', icon: '📊' },
+      { label: 'My Projects', path: '/projects', icon: '📁' },
+      { label: 'Attendance', path: '/attendance', icon: '⏰' },
+    ];
 
   return (
     <div className="h-screen w-72 bg-[#0D1117] border-r border-[#30363D] flex flex-col flex-shrink-0 z-50 transition-all duration-300 shadow-xl">
@@ -64,11 +64,10 @@ export default function Sidebar({ user, setUser }) {
           <Link
             key={item.path}
             to={item.path}
-            className={`flex items-center space-x-3 px-4 py-3.5 rounded-xl transition-all duration-200 group ${
-              isActive(item.path)
+            className={`flex items-center space-x-3 px-4 py-3.5 rounded-xl transition-all duration-200 group ${isActive(item.path)
                 ? 'bg-[#21262D] text-[#F0F6FC] shadow-sm border border-[#30363D]'
                 : 'text-[#8B949E] hover:text-[#F0F6FC] hover:bg-[#161B22]'
-            }`}
+              }`}
           >
             <span className={`text-xl transition-transform group-hover:scale-110 ${isActive(item.path) ? 'opacity-100' : 'opacity-70'}`}>{item.icon}</span>
             <span className="font-semibold text-sm tracking-wide">{item.label}</span>
