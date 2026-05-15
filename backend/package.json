@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm i && node server.js",
     "dev": "nodemon server.js",
     "seed": "node seed.js",
     "clear-data": "node clear-data.js"
