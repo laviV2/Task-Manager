@@ -3,7 +3,7 @@
 ================================================================================
 
 🚀 Live Application URL:
-https://web-production-f97ac.up.railway.app
+https://web-production-9beda.up.railway.app
 
 📂 GitHub Repository Link:
 https://github.com/laviV2/Task-Manager
@@ -93,9 +93,6 @@ Member Account:
 ================================================================================
 🌐 DEPLOYMENT
 ================================================================================
-Live at: https://web-production-f97ac.up.railway.app
-Deployed via Railway. CI/CD integration enabled via GitHub.
+Live at: https://web-production-9beda.up.railway.app/
+Deployed via Railway.
 
-================================================================================
-Built by Kashish
-================================================================================
