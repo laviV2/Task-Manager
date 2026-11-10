@@ -1,4 +1,4 @@
-# TaskFlow - Team Task Manager
+TaskFlow - Team Task Manager
 
 A simple, clean, and fully deployable team task management application built with modern web technologies.
 
@@ -8,11 +8,11 @@ A simple, clean, and fully deployable team task management application built wit
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)](https://www.mongodb.com/cloud/atlas)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4)](https://tailwindcss.com)
 
-## 🚀 Live Demo
+Live Demo
 
 [TaskFlow on Railway](https://taskflow.railway.app) _(Update with your Railway URL)_
 
-## 📋 Tech Stack
+Tech Stack
 
 **Frontend:**
 
@@ -34,9 +34,9 @@ A simple, clean, and fully deployable team task management application built wit
 - Railway (single-service architecture)
 - GitHub integration for CI/CD
 
-## ✨ Features
+ Features
 
-### Task Management
+Task Management
 
 - Start, complete, and cancel tasks with time tracking
 - Today's task log with duration metrics
@@ -44,42 +44,42 @@ A simple, clean, and fully deployable team task management application built wit
 - Task grouping by project
 - AHT (Average Handling Time) calculations
 
-### Attendance & Time Tracking
+Attendance & Time Tracking
 
 - Daily punch in/punch out system
 - Automatic hours worked calculation
 - Attendance records with filtering
 - CSV export functionality
 
-### Leave Management
+Leave Management
 
 - Apply for leave (sick, casual, unpaid, other)
 - Admin approval/rejection workflow
 - Leave status tracking
 - Date range support
 
-### Dashboard
+ Dashboard
 
 - Real-time punch timer
 - Today's task completion stats
 - Total time and average task duration
 - Project lead and reviewer information
 
-### User Management
+User Management
 
 - JWT-based authentication
 - Role-based access (admin, member)
 - User profile with avatar initials
 
-## 📦 Local Setup
+ Local Setup
 
-### Prerequisites
+ Prerequisites
 
 - Node.js 18+
 - MongoDB (local or Atlas connection string)
 - Git
 
-### Installation
+Installation
 
 1. **Clone the repository**
 
@@ -119,7 +119,7 @@ node seed.js
 5. **Open in Browser**
    Navigate to `http://localhost:5173`
 
-## 🔐 Demo Credentials
+ Demo Credentials
 
 After seeding the database:
 
@@ -131,7 +131,7 @@ After seeding the database:
   - Email: `lavi@taskflow.com`
   - Password: `lavi123`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 taskflow/
@@ -189,7 +189,7 @@ taskflow/
 └── README.md
 ```
 
-## 🚀 Deployment to Railway
+## Deployment to Railway
 
 ### Prerequisites
 
@@ -221,7 +221,7 @@ taskflow/
    - Push to GitHub
    - Railway auto-deploys on push
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -274,18 +274,18 @@ Dark theme with teal accents:
 - Text Primary: `#E6EDF3`
 - Text Muted: `#8B949E`
 
-## 📄 License
+##  License
 
 MIT License - feel free to use this project for personal or commercial use.
 
-## 👥 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Support
+## Support
 
 For issues and questions, please create a GitHub issue.
 
 ---
 
-Built with ❤️ by [Your Name/Team]
+
