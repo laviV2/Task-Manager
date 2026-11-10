@@ -1,12 +1,5 @@
 TaskFlow - Team Task Manager
 
-A simple, clean, and fully deployable team task management application built with modern web technologies.
-
-
-
-
-[TaskFlow on Railway](https://taskflow.railway.app) _(Update with your Railway URL)_
-
 Tech Stack
 
 **Frontend:**
