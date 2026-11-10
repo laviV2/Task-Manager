@@ -2,13 +2,8 @@ TaskFlow - Team Task Manager
 
 A simple, clean, and fully deployable team task management application built with modern web technologies.
 
-[![React](https://img.shields.io/badge/React-18-blue)](https://react.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-4-black)](https://expressjs.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)](https://www.mongodb.com/cloud/atlas)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4)](https://tailwindcss.com)
 
-Live Demo
+
 
 [TaskFlow on Railway](https://taskflow.railway.app) _(Update with your Railway URL)_
 
